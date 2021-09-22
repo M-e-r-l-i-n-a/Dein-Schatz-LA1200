@@ -1,6 +1,6 @@
 # Willkommen zu *Dein Schatz*!
 
-Dies ist mein erstes Spiel, das ich mit C# programmiert habe. Deine Aufgabe ist es, eine Zahl zwischen 1 und 100 zu erraten, um deinen Schatz zurück zu bekommen.
+Dies ist mein erstes Spiel, das ich mit C# programmiert habe. Deine Aufgabe ist es, eine Zahl zwischen 1 und 100 zu erraten, um deinen Schatz zurückzubekommen.
 
 
 ### Ziel:
@@ -15,7 +15,7 @@ Positiv: `if (guess > 0 && guess < 101)`
 
 Negativ: `if (!(guess > 0 && guess < 101))`
 
-(**Nicht:** `if !(guess > 0 && guess < 101)`)
+**Nicht:** `if !(guess > 0 && guess < 101)`
 
 ### Inhalt 3
 Bild
