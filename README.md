@@ -9,7 +9,25 @@ Ich möchte erklären, wie man ein If Statement korrekt verneint.
 Ein If Statement ist so aufgebaut, dass man "if" schreibt und in Klammern eine Bedingung. Nur wenn diese Bedingung erfüllt ist, wird der Inhalt des If Statements ausgeführt. Wenn man aber will, dass es nur ausgeführt wird, wenn es nicht so ist, dann verwendet man ein "!" zur Verneinung. Bei einer Bedingung schreibt man es direkt vor das Ralationszeichen. Wenn man aber Bedingungen kombiniert (durch "&&" oder "||"), muss man aufpassen, das man die Ausrufezeichen richtig setzt. Wichtig ist hierbei zu beachten, dass man das "!" nicht einfach vor die Klammer des If Statements setzen darf, sondern eine neue Klammer einbauen muss.
 
 ### Beispiele mit einer Bedingung:
-![Screenshot (5)](https://user-images.githubusercontent.com/89131331/134419271-bb929291-5a6a-42d2-9acd-59c727d8f010.png)
+```csharp
+if (attempts == 1) 
+{
+    // Mach das.
+}
+if (attempts != 1)
+{
+    // Mach das.
+}
+
+if (attempts > 1)
+{
+    // Mach das.
+}
+if (attempts !> 1) 
+{
+    // Mach das.
+}
+```
 
 ### Beispiele mit zwei Bedingungen:
 Positiv: `if (guess > 0 && guess < 101)` Bedeutung: Wenn guess zwischen 0 und 101 liegt.
